@@ -1,0 +1,110 @@
+html {
+    background: gray;
+}
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+h1 {
+    font-family: monospace;
+    font-size: 80px;
+    text-align: center;
+    text-indent: 15px;
+    /*letter-spacing: 5px;*/
+    color: yellow;
+    box-sizing: border-box; 
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+p { 
+    font-family: monospace;
+    font-size: 15px; 
+    /*text-indent: 15px;*/
+    color: yellow;
+    text-align: center;
+}
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 800px;
+    height: 790px;
+    background: black;
+}
+.game {
+    position: relative;
+    width: 770px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.background {
+    width: 770px;
+    height: 450px;
+    background: url(../images/hollywood-sign-by-night_smaill.jpg) center;
+    border: 20px 10px solid black;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.alien {
+    position: absolute; 
+    left: 308px;
+    top: 385px;
+    width: 100px;
+    height: 75px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.focus {
+    position: absolute;
+    left: 25px;
+    top: 28px;
+    width: 720px;
+    height: 394px;
+    background: rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    border: 2px solid gray;
+    overflow: hidden;
+
+}
+
+.circle {
+    left: 285px;
+    top: 120px;
+    position: absolute;
+    width: 146px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    -webkit-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+
+.line {
+    position: absolute;
+    left: -360px;
+    top: 195px;
+    width: 200%;
+    height: 2px;
+    background: rgba(255,255,255,0.5);
+    -webkit-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+.final-message {
+    position: absolute;
+    width: 100%;
+    top: 170px;
+    font-size: 30px;
+    text-align: center;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+}
+
+
