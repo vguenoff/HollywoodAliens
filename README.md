@@ -1,2 +1,2 @@
 # HollywoodAliens
-My first original game - April 2015
+first original game - april 2015
